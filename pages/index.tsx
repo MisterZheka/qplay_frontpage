@@ -339,6 +339,28 @@ const Home: NextPage<HomeProps> = ({ changelogNews }) => {
             <div className="col-lg-4 mb-4">
               <div className="card">
                 <div className="card-top">
+                  <ImageCard src={imgServerMiniUHC}></ImageCard>
+                  <div className="header">
+                    <div className="imageicon">
+                      <Image src={getdown} height={80} width={80} quality={100} />
+                    </div>
+                    <h3>GetDown</h3>
+                  </div>
+                </div>
+                <div className="card-body">
+                  <div className="content">
+                    <p>...</p>
+                    <h4>Seznam serverů</h4>
+                    <ul>
+                      <li>GteDown</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 mb-4">
+              <div className="card">
+                <div className="card-top">
                   <ImageCard src={imgServerTeams}></ImageCard>
                   <div className="header">
                     <div className="imageicon">
